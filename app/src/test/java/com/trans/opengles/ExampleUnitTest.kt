@@ -1,4 +1,4 @@
-package com.trans.opengl_es_show
+package com.trans.opengles
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.trans.opengl_es_show
+package com.trans.opengles
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

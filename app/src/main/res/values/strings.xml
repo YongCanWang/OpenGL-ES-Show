@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">OpenGL-ES-Show</string>
+    <string name="cover_background">背景</string>
+    <string name="cover_background_des">OpenGLES2.0绘制背景色</string>
+    <string name="cover_points">点</string>
+    <string name="cover_points_des">OpenGLES2.0绘制点</string>
+    <string name="cover_lines">线</string>
+    <string name="cover_lines_des">OpenGLES2.0绘制线</string>
+    <string name="cover_triangle">三角形</string>
+    <string name="cover_triangle_des">OpenGLES2.0绘制三角形</string>
+    <string name="cover_trianglees30">等腰三角形</string>
+    <string name="cover_trianglees30_des">OpenGLES3.0绘制等腰三角形</string>
+    <string name="cover_square">矩形</string>
+    <string name="cover_square_des">OpenGLES绘制矩形</string>
+    <string name="cover_squarees30">彩色矩形</string>
+    <string name="cover_squarees30_des">OpenGLES3.0绘制彩色矩形</string>
+    <string name="cover_circle">圆</string>
+    <string name="cover_circle_des">OpenGLES3.0绘制圆</string>
+    <string name="cover_texture2D">绘制纹理图片</string>
+    <string name="cover_texture2D_des">OpenGLES绘制2D纹理图片</string>
 </resources>

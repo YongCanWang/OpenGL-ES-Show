@@ -1,4 +1,4 @@
-package com.trans.opengl_es_show;
+package com.trans.opengles.surface;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;
@@ -14,11 +14,11 @@ public class MyGLSurfaceView extends GLSurfaceView {
 
     private MyGLRenderer renderer;
 
-    public MyGLSurfaceView(Context context) {
-        this(context, null);
+    public MyGLSurfaceView(Context context, Render render) {
+        this(context, null, render);
     }
 
-    public MyGLSurfaceView(Context context, AttributeSet attrs) {
+    public MyGLSurfaceView(Context context, AttributeSet attrs, Render render) {
         super(context, attrs);
 
         // Render the view only when there is a change in the drawing data 仅在绘图数据发生变化时才呈现视图
@@ -28,7 +28,7 @@ public class MyGLSurfaceView extends GLSurfaceView {
         // Create an OpenGL ES 2.0 context
         setEGLContextClientVersion(2);
 
-        renderer = new MyGLRenderer();
+        renderer = new MyGLRenderer(render);
 
         // Set the Renderer for drawing on the GLSurfaceView
         setRenderer(renderer);
