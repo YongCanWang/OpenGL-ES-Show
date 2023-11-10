@@ -5,8 +5,8 @@ import android.os.Bundle;
 import androidx.activity.ComponentActivity;
 import androidx.annotation.Nullable;
 
-import com.trans.opengles.surface.Render;
 import com.trans.opengles.surface.MyGLSurfaceView;
+import com.trans.opengles.surface.Render;
 
 /**
  * @author Tom灿

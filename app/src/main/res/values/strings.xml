@@ -18,4 +18,14 @@
     <string name="cover_circle_des">OpenGLES3.0绘制圆</string>
     <string name="cover_texture2D">绘制纹理图片</string>
     <string name="cover_texture2D_des">OpenGLES绘制2D纹理图片</string>
+    <string name="cover_cone">圆锥体</string>
+    <string name="cover_cone_des">OpenGLES绘制3D圆锥体</string>
+    <string name="cover_cylinder">圆柱体</string>
+    <string name="cover_cylinder_des">OpenGLES绘制3D圆柱体</string>
+    <string name="cover_ball">球体</string>
+    <string name="cover_ball_des">OpenGLES绘制球体</string>
+    <string name="cover_globe">地球仪</string>
+    <string name="cover_globe_des">OpenGLES绘制地球仪</string>
+    <string name="cover_ar">AR图</string>
+    <string name="cover_ar_des">OpenGLES绘制AR图</string>
 </resources>

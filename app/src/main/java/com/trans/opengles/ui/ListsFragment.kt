@@ -11,10 +11,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SimpleOnItemTouchListener
 import com.trans.opengles.R
+import com.trans.opengles.meta.basic.ARMeta
 import com.trans.opengles.meta.basic.BackgroundMeta
 import com.trans.opengles.meta.basic.CircleMeta
+import com.trans.opengles.meta.basic.ConeMeta
+import com.trans.opengles.meta.basic.CylinderMeta
 import com.trans.opengles.meta.basic.LinesES30Meta
 import com.trans.opengles.meta.basic.PointsES30Meta
+import com.trans.opengles.meta.basic.BallMeta
+import com.trans.opengles.meta.basic.GlobeMeta
 import com.trans.opengles.meta.basic.SquareES30Meta
 import com.trans.opengles.meta.basic.SquareMeta
 import com.trans.opengles.meta.basic.Texture2DMeta
@@ -81,6 +86,31 @@ class ListsFragment : Fragment() {
                     getString(R.string.cover_texture2D),
                     getString(R.string.cover_texture2D_des),
                     Texture2DMeta::class.java
+                ),
+                SampleItem(
+                    getString(R.string.cover_cone),
+                    getString(R.string.cover_cone_des),
+                    ConeMeta::class.java
+                ),
+                SampleItem(
+                    getString(R.string.cover_cylinder),
+                    getString(R.string.cover_cylinder_des),
+                    CylinderMeta::class.java
+                ),
+                SampleItem(
+                    getString(R.string.cover_ball),
+                    getString(R.string.cover_ball_des),
+                    BallMeta::class.java
+                ),
+                SampleItem(
+                    getString(R.string.cover_globe),
+                    getString(R.string.cover_globe_des),
+                    GlobeMeta::class.java
+                ),
+                SampleItem(
+                    getString(R.string.cover_ar),
+                    getString(R.string.cover_ar_des),
+                    ARMeta::class.java
                 )
             ),
         )
